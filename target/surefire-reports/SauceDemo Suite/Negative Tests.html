@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  Negative Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Negative Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 05 11:58:24 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>31 seconds (31565 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.saucedemo.tests.SessionTests.directUrlBlocked()'><b>directUrlBlocked</b><br>Test class: com.saucedemo.tests.SessionTests<br>Test method: TC_013: Direct inventory URL access without login is blocked</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.SessionTests@793f29ff</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NegativeLoginTests.loginFailsWithError()'><b>loginFailsWithError</b><br>Test class: com.saucedemo.tests.NegativeLoginTests<br>Test method: TC_002-007: Login fails with proper validation error<br>Parameters: , secret_sauce, Username is required</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.NegativeLoginTests@248e319b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NegativeCartTests.emptyCartHasNoProducts()'><b>emptyCartHasNoProducts</b><br>Test class: com.saucedemo.tests.NegativeCartTests<br>Test method: TC_015: Empty cart has no products to checkout</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.NegativeCartTests@3e8c3cb</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NegativeLoginTests.loginFailsWithError()'><b>loginFailsWithError</b><br>Test class: com.saucedemo.tests.NegativeLoginTests<br>Test method: TC_002-007: Login fails with proper validation error<br>Parameters: standard_user, , Password is required</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.NegativeLoginTests@248e319b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NegativeLoginTests.loginFailsWithError()'><b>loginFailsWithError</b><br>Test class: com.saucedemo.tests.NegativeLoginTests<br>Test method: TC_002-007: Login fails with proper validation error<br>Parameters: invalid_user, secret_sauce, do not match</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.NegativeLoginTests@248e319b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NegativeCheckoutTests.checkoutValidation()'><b>checkoutValidation</b><br>Test class: com.saucedemo.tests.NegativeCheckoutTests<br>Test method: TC_008-011: Checkout blocked with validation error on missing fields<br>Parameters: , , , First Name is required</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NegativeCheckoutTests.checkoutValidation()'><b>checkoutValidation</b><br>Test class: com.saucedemo.tests.NegativeCheckoutTests<br>Test method: TC_008-011: Checkout blocked with validation error on missing fields<br>Parameters: , Jahnavi, 500001, First Name is required</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NegativeLoginTests.lockedOutUser()'><b>lockedOutUser</b><br>Test class: com.saucedemo.tests.NegativeLoginTests<br>Test method: TC_001: Login fails for locked_out_user</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.NegativeLoginTests@248e319b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NegativeCheckoutTests.checkoutValidation()'><b>checkoutValidation</b><br>Test class: com.saucedemo.tests.NegativeCheckoutTests<br>Test method: TC_008-011: Checkout blocked with validation error on missing fields<br>Parameters: Siva, , 500001, Last Name is required</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NegativeLoginTests.loginFailsWithError()'><b>loginFailsWithError</b><br>Test class: com.saucedemo.tests.NegativeLoginTests<br>Test method: TC_002-007: Login fails with proper validation error<br>Parameters: invalid_user, wrong_pass, do not match</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.NegativeLoginTests@248e319b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NegativeLoginTests.loginFailsWithError()'><b>loginFailsWithError</b><br>Test class: com.saucedemo.tests.NegativeLoginTests<br>Test method: TC_002-007: Login fails with proper validation error<br>Parameters: , , Username is required</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.NegativeLoginTests@248e319b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.SessionTests.noAccessAfterLogoutBack()'><b>noAccessAfterLogoutBack</b><br>Test class: com.saucedemo.tests.SessionTests<br>Test method: TC_012: Inventory not accessible via Back button after logout</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.SessionTests@793f29ff</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NegativeCheckoutTests.checkoutValidation()'><b>checkoutValidation</b><br>Test class: com.saucedemo.tests.NegativeCheckoutTests<br>Test method: TC_008-011: Checkout blocked with validation error on missing fields<br>Parameters: Siva, Jahnavi, , Postal Code is required</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NegativeCartTests.removedProductNotInCart()'><b>removedProductNotInCart</b><br>Test class: com.saucedemo.tests.NegativeCartTests<br>Test method: TC_014: Removed product no longer appears in cart</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.NegativeCartTests@3e8c3cb</td></tr>
+<tr>
+<td title='com.saucedemo.tests.NegativeLoginTests.loginFailsWithError()'><b>loginFailsWithError</b><br>Test class: com.saucedemo.tests.NegativeLoginTests<br>Test method: TC_002-007: Login fails with proper validation error<br>Parameters: standard_user, wrong_pass, do not match</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.NegativeLoginTests@248e319b</td></tr>
+</table><p>
+</body>
+</html>

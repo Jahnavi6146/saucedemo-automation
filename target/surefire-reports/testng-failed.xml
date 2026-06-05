@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemo Seq Debug]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.saucedemo.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Failing classes sequential(failed)" verbose="0">
+    <classes>
+      <class name="com.saucedemo.tests.EndToEndTests">
+        <methods>
+          <include name="purchaseThenContinueShopping"/>
+          <include name="singleProductPurchase"/>
+          <include name="purchaseThenLogout"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="multipleProductPurchase"/>
+          <include name="cartModificationFlow"/>
+        </methods>
+      </class> <!-- com.saucedemo.tests.EndToEndTests -->
+    </classes>
+  </test> <!-- Failing classes sequential(failed) -->
+</suite> <!-- Failed suite [SauceDemo Seq Debug] -->

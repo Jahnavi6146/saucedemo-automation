@@ -1,0 +1,12 @@
+C:\Users\jsakt\eclipse-workspace\saucedemo-automation\src\main\java\com\saucedemo\base\BasePage.java
+C:\Users\jsakt\eclipse-workspace\saucedemo-automation\src\main\java\com\saucedemo\config\ConfigReader.java
+C:\Users\jsakt\eclipse-workspace\saucedemo-automation\src\main\java\com\saucedemo\driver\DriverFactory.java
+C:\Users\jsakt\eclipse-workspace\saucedemo-automation\src\main\java\com\saucedemo\listeners\TestListener.java
+C:\Users\jsakt\eclipse-workspace\saucedemo-automation\src\main\java\com\saucedemo\pages\CartPage.java
+C:\Users\jsakt\eclipse-workspace\saucedemo-automation\src\main\java\com\saucedemo\pages\CheckoutCompletePage.java
+C:\Users\jsakt\eclipse-workspace\saucedemo-automation\src\main\java\com\saucedemo\pages\CheckoutInfoPage.java
+C:\Users\jsakt\eclipse-workspace\saucedemo-automation\src\main\java\com\saucedemo\pages\CheckoutOverviewPage.java
+C:\Users\jsakt\eclipse-workspace\saucedemo-automation\src\main\java\com\saucedemo\pages\InventoryPage.java
+C:\Users\jsakt\eclipse-workspace\saucedemo-automation\src\main\java\com\saucedemo\pages\LoginPage.java
+C:\Users\jsakt\eclipse-workspace\saucedemo-automation\src\main\java\com\saucedemo\reports\ExtentManager.java
+C:\Users\jsakt\eclipse-workspace\saucedemo-automation\src\main\java\com\saucedemo\utils\ScreenshotUtil.java

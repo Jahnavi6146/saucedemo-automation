@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [SauceDemo Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.saucedemo.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="3" parallel="classes" name="Positive Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.saucedemo.tests.CartTests">
+        <methods>
+          <include name="loginFirst"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="removeProductFromCart"/>
+        </methods>
+      </class> <!-- com.saucedemo.tests.CartTests -->
+      <class name="com.saucedemo.tests.CheckoutTests">
+        <methods>
+          <include name="completePurchase"/>
+          <include name="orderSummaryDisplayed"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginAndAddProduct"/>
+          <include name="provideValidCheckoutInfo"/>
+        </methods>
+      </class> <!-- com.saucedemo.tests.CheckoutTests -->
+      <class name="com.saucedemo.tests.LogoutTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="logout"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.saucedemo.tests.LogoutTests -->
+    </classes>
+  </test> <!-- Positive Tests(failed) -->
+  <test thread-count="3" parallel="classes" name="Negative Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.saucedemo.tests.NegativeCheckoutTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="checkoutValidation" invocation-numbers="1 2 3"/>
+          <include name="reachCheckoutInfo"/>
+        </methods>
+      </class> <!-- com.saucedemo.tests.NegativeCheckoutTests -->
+      <class name="com.saucedemo.tests.NegativeCartTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="removedProductNotInCart"/>
+          <include name="loginFirst"/>
+        </methods>
+      </class> <!-- com.saucedemo.tests.NegativeCartTests -->
+      <class name="com.saucedemo.tests.SessionTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="noAccessAfterLogoutBack"/>
+        </methods>
+      </class> <!-- com.saucedemo.tests.SessionTests -->
+    </classes>
+  </test> <!-- Negative Tests(failed) -->
+  <test thread-count="3" parallel="classes" name="End To End Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.saucedemo.tests.EndToEndTests">
+        <methods>
+          <include name="singleProductPurchase"/>
+          <include name="purchaseThenContinueShopping"/>
+          <include name="purchaseThenLogout"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="multipleProductPurchase"/>
+          <include name="cartModificationFlow"/>
+        </methods>
+      </class> <!-- com.saucedemo.tests.EndToEndTests -->
+    </classes>
+  </test> <!-- End To End Tests(failed) -->
+</suite> <!-- Failed suite [SauceDemo Suite] -->

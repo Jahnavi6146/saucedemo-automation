@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-05T11:57:29 IST" name="SauceDemo Suite" finished-at="2026-06-05T11:59:15 IST" duration-ms="106175">
+    <groups>
+    </groups>
+    <test started-at="2026-06-05T11:57:29 IST" name="Positive Tests" finished-at="2026-06-05T11:58:24 IST" duration-ms="54443">
+      <class name="com.saucedemo.tests.CartTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:57:46 IST" name="setUp" finished-at="2026-06-05T11:57:48 IST" duration-ms="2614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:57:48 IST" name="loginFirst" finished-at="2026-06-05T11:57:52 IST" duration-ms="3572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="addMultipleProducts()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:57:52 IST" name="addMultipleProducts" description="TC_012: Add multiple products to cart" finished-at="2026-06-05T11:57:55 IST" duration-ms="2967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:57:55 IST" name="tearDown" finished-at="2026-06-05T11:57:59 IST" duration-ms="3842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:57:59 IST" name="setUp" finished-at="2026-06-05T11:58:01 IST" duration-ms="2744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:01 IST" name="loginFirst" finished-at="2026-06-05T11:58:02 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="addSingleProduct()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:02 IST" name="addSingleProduct" description="TC_011: Add a single product to cart" finished-at="2026-06-05T11:58:02 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSingleProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:02 IST" name="tearDown" finished-at="2026-06-05T11:58:03 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:03 IST" name="setUp" finished-at="2026-06-05T11:58:05 IST" duration-ms="2069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:05 IST" name="loginFirst" finished-at="2026-06-05T11:58:06 IST" duration-ms="1583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="cartBadgeUpdates()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:06 IST" name="cartBadgeUpdates" description="TC_013: Cart badge count updates correctly" finished-at="2026-06-05T11:58:07 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartBadgeUpdates -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:07 IST" name="tearDown" finished-at="2026-06-05T11:58:07 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:07 IST" name="setUp" finished-at="2026-06-05T11:58:09 IST" duration-ms="2590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:09 IST" name="loginFirst" finished-at="2026-06-05T11:58:10 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="removeProductFromCart()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:10 IST" name="removeProductFromCart" description="TC_015: Remove a product from the cart" finished-at="2026-06-05T11:58:11 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:11 IST" name="tearDown" finished-at="2026-06-05T11:58:11 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:11 IST" name="setUp" finished-at="2026-06-05T11:58:14 IST" duration-ms="2526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:14 IST" name="loginFirst" finished-at="2026-06-05T11:58:14 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="viewCartProducts()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:14 IST" name="viewCartProducts" description="TC_014: View products added to cart" finished-at="2026-06-05T11:58:15 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCartProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CartTests@4a883b15]" started-at="2026-06-05T11:58:15 IST" name="tearDown" finished-at="2026-06-05T11:58:15 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.CartTests -->
+      <class name="com.saucedemo.tests.LogoutTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.LogoutTests@7b36aa0c]" started-at="2026-06-05T11:58:15 IST" name="setUp" finished-at="2026-06-05T11:58:17 IST" duration-ms="2299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logout()[pri:0, instance:com.saucedemo.tests.LogoutTests@7b36aa0c]" started-at="2026-06-05T11:58:17 IST" name="logout" description="TC_020: User can logout from the application" finished-at="2026-06-05T11:58:19 IST" duration-ms="1767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.LogoutTests@7b36aa0c]" started-at="2026-06-05T11:58:19 IST" name="tearDown" finished-at="2026-06-05T11:58:19 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.LogoutTests -->
+      <class name="com.saucedemo.tests.CheckoutTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:06 IST" name="setUp" finished-at="2026-06-05T11:58:09 IST" duration-ms="2317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginAndAddProduct()[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:09 IST" name="loginAndAddProduct" finished-at="2026-06-05T11:58:10 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndAddProduct -->
+        <test-method signature="completePurchase()[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:10 IST" name="completePurchase" description="TC_019: Complete purchase successfully" finished-at="2026-06-05T11:58:11 IST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completePurchase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:11 IST" name="tearDown" finished-at="2026-06-05T11:58:11 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:11 IST" name="setUp" finished-at="2026-06-05T11:58:14 IST" duration-ms="2519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginAndAddProduct()[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:14 IST" name="loginAndAddProduct" finished-at="2026-06-05T11:58:15 IST" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndAddProduct -->
+        <test-method signature="navigateToCheckoutInfo()[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:15 IST" name="navigateToCheckoutInfo" description="TC_016: Navigate to Checkout Information page" finished-at="2026-06-05T11:58:15 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCheckoutInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:15 IST" name="tearDown" finished-at="2026-06-05T11:58:16 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:16 IST" name="setUp" finished-at="2026-06-05T11:58:18 IST" duration-ms="1950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginAndAddProduct()[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:18 IST" name="loginAndAddProduct" finished-at="2026-06-05T11:58:19 IST" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndAddProduct -->
+        <test-method signature="orderSummaryDisplayed()[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:19 IST" name="orderSummaryDisplayed" description="TC_018: Order summary displayed before purchase" finished-at="2026-06-05T11:58:20 IST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderSummaryDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:20 IST" name="tearDown" finished-at="2026-06-05T11:58:20 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:20 IST" name="setUp" finished-at="2026-06-05T11:58:22 IST" duration-ms="1973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginAndAddProduct()[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:22 IST" name="loginAndAddProduct" finished-at="2026-06-05T11:58:23 IST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndAddProduct -->
+        <test-method signature="provideValidCheckoutInfo()[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:23 IST" name="provideValidCheckoutInfo" description="TC_017: Provide valid checkout information" finished-at="2026-06-05T11:58:23 IST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideValidCheckoutInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CheckoutTests@25641d39]" started-at="2026-06-05T11:58:23 IST" name="tearDown" finished-at="2026-06-05T11:58:24 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.CheckoutTests -->
+      <class name="com.saucedemo.tests.PositiveLoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:57:29 IST" name="setUp" finished-at="2026-06-05T11:57:33 IST" duration-ms="3365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidUsers(java.lang.String)[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:57:33 IST" name="loginWithValidUsers" description="TC_001-005: Login succeeds for each valid SauceDemo user" data-provider="validUsers" finished-at="2026-06-05T11:57:34 IST" duration-ms="1284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:57:34 IST" name="tearDown" finished-at="2026-06-05T11:57:34 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:57:34 IST" name="setUp" finished-at="2026-06-05T11:57:37 IST" duration-ms="2688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidUsers(java.lang.String)[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:57:37 IST" name="loginWithValidUsers" description="TC_001-005: Login succeeds for each valid SauceDemo user" data-provider="validUsers" finished-at="2026-06-05T11:57:38 IST" duration-ms="911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:57:38 IST" name="tearDown" finished-at="2026-06-05T11:57:38 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:57:38 IST" name="setUp" finished-at="2026-06-05T11:57:40 IST" duration-ms="2030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidUsers(java.lang.String)[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:57:40 IST" name="loginWithValidUsers" description="TC_001-005: Login succeeds for each valid SauceDemo user" data-provider="validUsers" finished-at="2026-06-05T11:57:47 IST" duration-ms="6719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:57:47 IST" name="tearDown" finished-at="2026-06-05T11:57:47 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:57:47 IST" name="setUp" finished-at="2026-06-05T11:57:51 IST" duration-ms="4117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidUsers(java.lang.String)[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:57:51 IST" name="loginWithValidUsers" description="TC_001-005: Login succeeds for each valid SauceDemo user" data-provider="validUsers" finished-at="2026-06-05T11:57:55 IST" duration-ms="3404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:57:55 IST" name="tearDown" finished-at="2026-06-05T11:57:58 IST" duration-ms="3607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:57:58 IST" name="setUp" finished-at="2026-06-05T11:58:01 IST" duration-ms="2859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidUsers(java.lang.String)[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:58:01 IST" name="loginWithValidUsers" description="TC_001-005: Login succeeds for each valid SauceDemo user" data-provider="validUsers" finished-at="2026-06-05T11:58:02 IST" duration-ms="981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:58:02 IST" name="tearDown" finished-at="2026-06-05T11:58:02 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:58:02 IST" name="setUp" finished-at="2026-06-05T11:58:05 IST" duration-ms="2581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productsPageDisplayedAfterLogin()[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:58:05 IST" name="productsPageDisplayedAfterLogin" description="TC_006: Products page displayed after successful login" finished-at="2026-06-05T11:58:06 IST" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsPageDisplayedAfterLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.PositiveLoginTests@550dbc7a]" started-at="2026-06-05T11:58:06 IST" name="tearDown" finished-at="2026-06-05T11:58:06 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.PositiveLoginTests -->
+      <class name="com.saucedemo.tests.ProductTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:29 IST" name="setUp" finished-at="2026-06-05T11:57:33 IST" duration-ms="3443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:33 IST" name="loginFirst" finished-at="2026-06-05T11:57:34 IST" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="allProductsDisplayed()[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:34 IST" name="allProductsDisplayed" description="TC_007: All products displayed on Products page" finished-at="2026-06-05T11:57:34 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allProductsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:34 IST" name="tearDown" finished-at="2026-06-05T11:57:34 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:34 IST" name="setUp" finished-at="2026-06-05T11:57:36 IST" duration-ms="1907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:36 IST" name="loginFirst" finished-at="2026-06-05T11:57:38 IST" duration-ms="1506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="productDetailsDisplayed()[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:38 IST" name="productDetailsDisplayed" description="TC_008: Each product shows image, name, description and price" finished-at="2026-06-05T11:57:38 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetailsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:38 IST" name="tearDown" finished-at="2026-06-05T11:57:38 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:38 IST" name="setUp" finished-at="2026-06-05T11:57:41 IST" duration-ms="2685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:41 IST" name="loginFirst" finished-at="2026-06-05T11:57:42 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="sortByNameAtoZ()[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:42 IST" name="sortByNameAtoZ" description="TC_009: Products sortable by Name (A to Z)" finished-at="2026-06-05T11:57:42 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByNameAtoZ -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:42 IST" name="tearDown" finished-at="2026-06-05T11:57:42 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:42 IST" name="setUp" finished-at="2026-06-05T11:57:44 IST" duration-ms="2062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:44 IST" name="loginFirst" finished-at="2026-06-05T11:57:45 IST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="sortByPriceLowToHigh()[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:45 IST" name="sortByPriceLowToHigh" description="TC_010: Products sortable by Price (low to high)" finished-at="2026-06-05T11:57:45 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.ProductTests@52b1beb6]" started-at="2026-06-05T11:57:45 IST" name="tearDown" finished-at="2026-06-05T11:57:46 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.ProductTests -->
+    </test> <!-- Positive Tests -->
+    <test started-at="2026-06-05T11:58:24 IST" name="Negative Tests" finished-at="2026-06-05T11:58:56 IST" duration-ms="31565">
+      <class name="com.saucedemo.tests.NegativeCheckoutTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:24 IST" name="setUp" finished-at="2026-06-05T11:58:26 IST" duration-ms="1932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="reachCheckoutInfo()[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:26 IST" name="reachCheckoutInfo" finished-at="2026-06-05T11:58:28 IST" duration-ms="2008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reachCheckoutInfo -->
+        <test-method signature="checkoutValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:28 IST" name="checkoutValidation" description="TC_008-011: Checkout blocked with validation error on missing fields" data-provider="invalidCheckout" finished-at="2026-06-05T11:58:29 IST" duration-ms="1205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jahnavi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[First Name is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:29 IST" name="tearDown" finished-at="2026-06-05T11:58:29 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:29 IST" name="setUp" finished-at="2026-06-05T11:58:31 IST" duration-ms="1587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="reachCheckoutInfo()[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:31 IST" name="reachCheckoutInfo" finished-at="2026-06-05T11:58:34 IST" duration-ms="2553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reachCheckoutInfo -->
+        <test-method signature="checkoutValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:34 IST" name="checkoutValidation" description="TC_008-011: Checkout blocked with validation error on missing fields" data-provider="invalidCheckout" finished-at="2026-06-05T11:58:34 IST" duration-ms="744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Siva]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Last Name is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:34 IST" name="tearDown" finished-at="2026-06-05T11:58:35 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:35 IST" name="setUp" finished-at="2026-06-05T11:58:37 IST" duration-ms="2064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="reachCheckoutInfo()[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:37 IST" name="reachCheckoutInfo" finished-at="2026-06-05T11:58:39 IST" duration-ms="1973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reachCheckoutInfo -->
+        <test-method signature="checkoutValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:39 IST" name="checkoutValidation" description="TC_008-011: Checkout blocked with validation error on missing fields" data-provider="invalidCheckout" finished-at="2026-06-05T11:58:40 IST" duration-ms="1130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Siva]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jahnavi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Postal Code is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:40 IST" name="tearDown" finished-at="2026-06-05T11:58:40 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:40 IST" name="setUp" finished-at="2026-06-05T11:58:42 IST" duration-ms="2139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="reachCheckoutInfo()[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:42 IST" name="reachCheckoutInfo" finished-at="2026-06-05T11:58:44 IST" duration-ms="1739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reachCheckoutInfo -->
+        <test-method signature="checkoutValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:44 IST" name="checkoutValidation" description="TC_008-011: Checkout blocked with validation error on missing fields" data-provider="invalidCheckout" finished-at="2026-06-05T11:58:44 IST" duration-ms="502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[First Name is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.NegativeCheckoutTests@5d0bf09b]" started-at="2026-06-05T11:58:44 IST" name="tearDown" finished-at="2026-06-05T11:58:45 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.NegativeCheckoutTests -->
+      <class name="com.saucedemo.tests.NegativeLoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:24 IST" name="setUp" finished-at="2026-06-05T11:58:27 IST" duration-ms="2582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lockedOutUser()[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:27 IST" name="lockedOutUser" description="TC_001: Login fails for locked_out_user" finished-at="2026-06-05T11:58:28 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedOutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:28 IST" name="tearDown" finished-at="2026-06-05T11:58:28 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:28 IST" name="setUp" finished-at="2026-06-05T11:58:29 IST" duration-ms="1534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFailsWithError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:29 IST" name="loginFailsWithError" description="TC_002-007: Login fails with proper validation error" data-provider="invalidCredentials" finished-at="2026-06-05T11:58:31 IST" duration-ms="1800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailsWithError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:31 IST" name="tearDown" finished-at="2026-06-05T11:58:31 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:31 IST" name="setUp" finished-at="2026-06-05T11:58:34 IST" duration-ms="2160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFailsWithError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:34 IST" name="loginFailsWithError" description="TC_002-007: Login fails with proper validation error" data-provider="invalidCredentials" finished-at="2026-06-05T11:58:34 IST" duration-ms="693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailsWithError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:34 IST" name="tearDown" finished-at="2026-06-05T11:58:35 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:35 IST" name="setUp" finished-at="2026-06-05T11:58:37 IST" duration-ms="2590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFailsWithError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:37 IST" name="loginFailsWithError" description="TC_002-007: Login fails with proper validation error" data-provider="invalidCredentials" finished-at="2026-06-05T11:58:38 IST" duration-ms="667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailsWithError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:38 IST" name="tearDown" finished-at="2026-06-05T11:58:38 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:38 IST" name="setUp" finished-at="2026-06-05T11:58:40 IST" duration-ms="1994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFailsWithError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:40 IST" name="loginFailsWithError" description="TC_002-007: Login fails with proper validation error" data-provider="invalidCredentials" finished-at="2026-06-05T11:58:42 IST" duration-ms="1323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[do not match]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailsWithError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:42 IST" name="tearDown" finished-at="2026-06-05T11:58:42 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:42 IST" name="setUp" finished-at="2026-06-05T11:58:43 IST" duration-ms="1559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFailsWithError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:43 IST" name="loginFailsWithError" description="TC_002-007: Login fails with proper validation error" data-provider="invalidCredentials" finished-at="2026-06-05T11:58:45 IST" duration-ms="1349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[do not match]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailsWithError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:45 IST" name="tearDown" finished-at="2026-06-05T11:58:45 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:45 IST" name="setUp" finished-at="2026-06-05T11:58:48 IST" duration-ms="2577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFailsWithError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:48 IST" name="loginFailsWithError" description="TC_002-007: Login fails with proper validation error" data-provider="invalidCredentials" finished-at="2026-06-05T11:58:48 IST" duration-ms="840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[do not match]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailsWithError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.NegativeLoginTests@248e319b]" started-at="2026-06-05T11:58:48 IST" name="tearDown" finished-at="2026-06-05T11:58:49 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.NegativeLoginTests -->
+      <class name="com.saucedemo.tests.SessionTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.SessionTests@793f29ff]" started-at="2026-06-05T11:58:45 IST" name="setUp" finished-at="2026-06-05T11:58:47 IST" duration-ms="2523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="directUrlBlocked()[pri:0, instance:com.saucedemo.tests.SessionTests@793f29ff]" started-at="2026-06-05T11:58:47 IST" name="directUrlBlocked" description="TC_013: Direct inventory URL access without login is blocked" finished-at="2026-06-05T11:58:48 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- directUrlBlocked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.SessionTests@793f29ff]" started-at="2026-06-05T11:58:48 IST" name="tearDown" finished-at="2026-06-05T11:58:48 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.SessionTests@793f29ff]" started-at="2026-06-05T11:58:48 IST" name="setUp" finished-at="2026-06-05T11:58:50 IST" duration-ms="2378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="noAccessAfterLogoutBack()[pri:0, instance:com.saucedemo.tests.SessionTests@793f29ff]" started-at="2026-06-05T11:58:50 IST" name="noAccessAfterLogoutBack" description="TC_012: Inventory not accessible via Back button after logout" finished-at="2026-06-05T11:58:52 IST" duration-ms="1986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noAccessAfterLogoutBack -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.SessionTests@793f29ff]" started-at="2026-06-05T11:58:52 IST" name="tearDown" finished-at="2026-06-05T11:58:53 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.SessionTests -->
+      <class name="com.saucedemo.tests.NegativeCartTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeCartTests@3e8c3cb]" started-at="2026-06-05T11:58:49 IST" name="setUp" finished-at="2026-06-05T11:58:51 IST" duration-ms="2092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:com.saucedemo.tests.NegativeCartTests@3e8c3cb]" started-at="2026-06-05T11:58:51 IST" name="loginFirst" finished-at="2026-06-05T11:58:52 IST" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="emptyCartHasNoProducts()[pri:0, instance:com.saucedemo.tests.NegativeCartTests@3e8c3cb]" started-at="2026-06-05T11:58:52 IST" name="emptyCartHasNoProducts" description="TC_015: Empty cart has no products to checkout" finished-at="2026-06-05T11:58:52 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCartHasNoProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.NegativeCartTests@3e8c3cb]" started-at="2026-06-05T11:58:52 IST" name="tearDown" finished-at="2026-06-05T11:58:52 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.NegativeCartTests@3e8c3cb]" started-at="2026-06-05T11:58:52 IST" name="setUp" finished-at="2026-06-05T11:58:54 IST" duration-ms="1967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:com.saucedemo.tests.NegativeCartTests@3e8c3cb]" started-at="2026-06-05T11:58:54 IST" name="loginFirst" finished-at="2026-06-05T11:58:55 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="removedProductNotInCart()[pri:0, instance:com.saucedemo.tests.NegativeCartTests@3e8c3cb]" started-at="2026-06-05T11:58:55 IST" name="removedProductNotInCart" description="TC_014: Removed product no longer appears in cart" finished-at="2026-06-05T11:58:55 IST" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removedProductNotInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.NegativeCartTests@3e8c3cb]" started-at="2026-06-05T11:58:55 IST" name="tearDown" finished-at="2026-06-05T11:58:56 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.NegativeCartTests -->
+    </test> <!-- Negative Tests -->
+    <test started-at="2026-06-05T11:58:56 IST" name="End To End Tests" finished-at="2026-06-05T11:59:15 IST" duration-ms="19698">
+      <class name="com.saucedemo.tests.EndToEndTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:58:56 IST" name="setUp" finished-at="2026-06-05T11:58:58 IST" duration-ms="1863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cartModificationFlow()[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:58:58 IST" name="cartModificationFlow" description="TC_003 E2E: Add three, remove one, purchase remaining" finished-at="2026-06-05T11:59:00 IST" duration-ms="1988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartModificationFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:59:00 IST" name="tearDown" finished-at="2026-06-05T11:59:00 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:59:00 IST" name="setUp" finished-at="2026-06-05T11:59:02 IST" duration-ms="1993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multipleProductPurchase()[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:59:02 IST" name="multipleProductPurchase" description="TC_002 E2E: Purchase multiple products end-to-end" finished-at="2026-06-05T11:59:03 IST" duration-ms="1796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleProductPurchase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:59:03 IST" name="tearDown" finished-at="2026-06-05T11:59:04 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:59:04 IST" name="setUp" finished-at="2026-06-05T11:59:06 IST" duration-ms="1909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="purchaseThenContinueShopping()[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:59:06 IST" name="purchaseThenContinueShopping" description="TC_005 E2E: Complete a purchase then continue shopping" finished-at="2026-06-05T11:59:07 IST" duration-ms="1787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseThenContinueShopping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:59:07 IST" name="tearDown" finished-at="2026-06-05T11:59:08 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:59:08 IST" name="setUp" finished-at="2026-06-05T11:59:09 IST" duration-ms="1932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="purchaseThenLogout()[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:59:09 IST" name="purchaseThenLogout" description="TC_004 E2E: Complete an order then logout" finished-at="2026-06-05T11:59:12 IST" duration-ms="2371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseThenLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:59:12 IST" name="tearDown" finished-at="2026-06-05T11:59:12 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:59:12 IST" name="setUp" finished-at="2026-06-05T11:59:13 IST" duration-ms="1150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="singleProductPurchase()[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:59:13 IST" name="singleProductPurchase" description="TC_001 E2E: Purchase a single product end-to-end" finished-at="2026-06-05T11:59:15 IST" duration-ms="2064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleProductPurchase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.EndToEndTests@202b0582]" started-at="2026-06-05T11:59:15 IST" name="tearDown" finished-at="2026-06-05T11:59:15 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.EndToEndTests -->
+    </test> <!-- End To End Tests -->
+  </suite> <!-- SauceDemo Suite -->
+</testng-results>
